@@ -14,3 +14,4 @@ void loop() {
 }
   delay(tempo); // aguarda o valor que está definido na variável tempo em ms (1000ms = 1s)                    
 }
+// mudando algo para fazer um segundo commit
