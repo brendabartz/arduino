@@ -1,0 +1,20 @@
+int tempo;
+int botao = 0;
+void setup() {
+tempo=1000;
+pinMode  (1, OUTPUT);
+pinMode (2, INPUT);//tecnicamente isso é o botao pq é input
+tempo = 1000;
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+botao = digitalRead(2);
+if (botao==HIGH){
+digitalWrite(1, HIGH);
+}else {
+digitalWrite(1, LOW);
+}
+delay (tempo);
+}
